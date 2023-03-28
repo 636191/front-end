@@ -1,0 +1,28 @@
+  *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+.grandpa{
+  border: 2px solid red;
+  height: 2000px;
+
+}
+.parent{
+   border: 2px solid blue;
+   margin: 20px;
+   position: relative;
+    }
+    .children{
+        border: 2px solid blueviolet;
+        display: inline-block;
+        width: 250px;
+        height: 250px;
+        margin: 20px;
+    }
+    #one{
+        position:sticky;
+        top: 0px;
+        left: 75px;
+       
+    }

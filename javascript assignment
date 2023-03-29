@@ -1,0 +1,156 @@
+//Ans--1
+// var str1 = 'Today is';
+// var str2 = '      a beautiful day     ';
+// var str3 = ' In Hawaii.     ';
+// var result = str1.concat(" ",str2.trim()," ",str3.trim());
+// console.log(result);
+
+
+//Ans--2------------------------------>
+// var enteredAlphabet = "u"
+
+// switch(enteredAlphabet){
+//     case "a":
+//         console.log("'a' is a vowel")
+//         break;
+//     case "b":
+//         console.log("'b' is a consonant")
+//         break;
+//     case "c":
+//         console.log("'c' is a consonant")
+//         break;
+//     case "d":
+//         console.log("'d' is a consonant")
+//         break;
+//     case "e":
+//         console.log("'e' is a vowel")
+//         break;
+//     case "f":
+//         console.log("'f' is a consonant")
+//         break;
+//     case "g":
+//         console.log("'g' is a consonant")
+//         break;
+//     case "h":
+//         console.log("'h' is a consonant")
+//         break;
+//     case "i":
+//         console.log("'i' is a vowel")
+//         break;
+//     case "j":
+//         console.log("'j' is a consonant")
+//         break;
+//     case "k":
+//         console.log("'k' is a consonant")
+//         break;
+//     case "l":
+//         console.log("'l' is a consonant")
+//         break;
+//     case "m":
+//         console.log("'m' is a consonant")
+//         break;
+//     case "n":
+//         console.log("'n' is a consonant")
+//         break;
+//     case "o":
+//         console.log("'o' is a vowel")
+//         break;
+//     case "p":
+//         console.log("'p' is a consonant")
+//         break;
+//     case "q":
+//         console.log("'q' is a consonant")
+//         break;
+//     case "r":
+//         console.log("'r' is a consonant")
+//         break;
+//     case "s":
+//         console.log("'s' is a consonant")
+//         break;
+//     case "t":
+//         console.log("'t' is a consonant")
+//         break;
+//     case "u":
+//         console.log("'u' is a vowel")
+//         break; 
+//     case "v":
+//         console.log("'v' is a consonant")
+//         break;
+//     case "w":
+//         console.log("'w' is a consonant")
+//         break;
+//     case "x":
+//         console.log("'x' is a consonant")
+//         break;
+//     case "y":
+//         console.log("'y' is a consonant")
+//         break;
+//     case "z":
+//         console.log("'z' is a consonant")
+//         break;
+//     default :
+//         console.log(" entered value is not alphabet")
+    
+// }
+
+
+//Ans-3------------------------------>
+
+//  var firstnum = prompt("enter 1st number")
+//      firstnum = parseFloat(firstnum);
+//  var operator = prompt("enter the operand from following(' +,-,/or *')")
+//  var secondnum = prompt("enter 2nd number")
+//      secondnum = parseFloat(secondnum);
+ 
+// switch (operator){
+//     case "+":
+//         console.log("the ans is "+ (firstnum + secondnum));
+//         break;
+//     case "-":
+//         console.log("the ans is "+ (firstnum - secondnum));
+//         break;
+//     case "*":
+//         console.log("the ans is "+ (firstnum * secondnum));
+//         break;
+//     case "/":
+//         console.log("the ans is "+ (firstnum / secondnum));
+//         break;
+            
+// }
+
+//Ans-4.------------------------------>
+
+// var a = Number(window.prompt('enter the first side (a)'))
+// var b = Number(window.prompt('enter the second side (b)'))
+// var c = Number(window.prompt('enter the third side (c)'))
+
+// if (a + b <= c || b + c <= a || c + a <= b){
+//   console.log("enter the correct input")
+// }
+// else if ((a > 0 && b >0 && c >0 ) && (a == b && b == c && c == a)){
+//   console.log("equilateral triangle")
+// }
+// else if ((a > 0 && b >0 && c >0 ) && (a == b || b == c || c == a)){
+//   console.log("isosceles triangle")
+// }
+// else {
+//   console.log("scalene triangle")
+// }
+
+//Ans-5------------------------------->
+
+// var unit = window.prompt("enter your units");
+//     unit = parseInt(unit);
+// var  bill, billWithSubcharge;
+ 
+// if( unit > 1 && unit <= 50){
+//     bill = unit * 0.5; 
+// }else if( unit > 51 && unit <= 150){
+//     bill = 50 * 0.5 + (unit-50) * 0.75;
+// }else if( unit > 151 && unit <= 250){
+//     bill = 50 * 0.5 + 100 * 0.75 + (unit-150) * 1.20;
+// }else if( unit > 250){
+//     bill = 50 * 0.5 + 100 * 0.75 + 100 * 1.20 +(unit-250) * 1.50;
+// }
+// billWithSubcharge = (bill + bill * 0.2);
+// console.log(billWithSubcharge)

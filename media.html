@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .rectangular{
+            background-color: coral;
+            margin: 15px;
+            padding: 10px;
+            display: none;
+ }
+           @media (min-width: 150px) and (max-width: 350px){
+                      #andriod{
+                        display: block;
+                        background-color: chartreuse;
+                      }
+           }
+           @media (min-width: 400px) and (max-width: 650px){
+                      #iphone{
+                        display: block;
+                        background-color: rgb(101, 194, 8);
+                      }
+           }
+           @media (min-width: 700px) and (max-width: 950px){
+                      #tablet{
+                        display: block;
+                        background-color: rgb(106, 200, 12);
+                      }
+           }
+           @media (min-width: 1000px) and (max-width: 1200px){
+                      #laptop{
+                        display: block;
+                        background-color: rgb(12, 43, 200);
+                      }
+           }
+           @media (min-width: 1250px) and (max-width: 1350px){
+                      #desktop{
+                        display: block;
+                        background-color: rgb(187, 200, 12);
+                      }
+           }
+           @media (oreintion:landscape){
+            h1{
+                background-color: white;
+            }
+           }
+
+        </style>
+    
+</head>
+<body>
+      <div class="container">
+        <div id="andriod" class="rectangular">
+            <h1>andriod mobile</h1>
+        </div>
+        <div id="tablet" class="rectangular">
+            <h1>tablet</h1>
+        </div>
+        <div id="laptop" class="rectangular">
+            <h1>laptop</h1>
+        </div>
+        <div id="desktop" class="rectangular">
+            <h1>desktop</h1>
+        </div>
+        <div id="iphone" class="rectangular">
+            <h1>iphone</h1>
+        </div>
+      </div>
+</body>
+</html>

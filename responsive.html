@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+        <style>
+        .container{  /* parent */
+            display: flex;
+            padding: 20px;
+            align-items: center;
+
+        }
+        .left{
+            width: 70%;
+            padding: 15px;
+
+           
+        }
+        .left img{
+            width: 100%;
+            
+            
+        }
+        .right{
+            width: 70%;
+            padding: 20px;
+        }
+        h1{
+            font-size: 55px;
+        }
+
+        @media (min-width: 400px) and (max-width: 700px){
+            .container{
+                flex-direction: column;
+
+            }
+            .left{
+                width: 100%;
+
+            }
+            .right{
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+    
+        
+      
+</head>
+<body>
+    <div class="contianer">
+        <div class="left">
+           <img src="https://images.pexels.com/photos/2724664/pexels-photo-2724664.jpeg" alt="moutain">
+        </div>
+        <div class="right">
+            <h1>beautiful place</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptatem aspernatur dolor ipsum? Ipsam rem quod fugit, tempore quas illum doloribus maxime impedit quos harum earum, repellat iste ut consequuntur.</p>
+        </div>
+
+    </div>
+</body>
+</html>
